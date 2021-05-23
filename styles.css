@@ -1,0 +1,145 @@
+/*title*/
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+h1{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    font-weight: bolder;
+}
+.containor{    
+    padding:1%  15% 50px ;
+}
+.iphone-image{
+    width: 55%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/*feature icons*/
+
+.fas:hover{
+    color:#ff4c68 ; 
+}
+.feature-text
+{
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px 0;
+}
+p{
+    color: #8f8f8f;
+}
+#features{
+    padding: 7% 15%;    
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-item{
+    padding: 40px 35px;
+    color: #ef8172;
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonials-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.7rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    padding: 5% 17%;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+/* press */
+
+#press{
+    background-color: #ef8172;
+}
+.press-image{
+    width: 18%;
+    padding:20px 10px;
+    padding-bottom: 60px;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding-top: 30px;
+}
+
+/* call to action */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 8.5% ;
+}
+.cta-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+}
+.cta-buttom{
+    margin: 5% 1.3%  0;
+}
+
+/* footer */
+
+#footer{
+    padding: 5%;
+}
+.footer-logo{
+    margin: 15px 10px;
+}
+.footer-logo:hover{
+    color: black;
+}
+
+/* responsive for mobile and tab */
+
+@media (max-width: 1028px)
+{
+    .iphone-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
